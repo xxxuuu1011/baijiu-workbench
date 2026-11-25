@@ -1,4 +1,4 @@
-const CACHE = 'kst-v3';
+const CACHE = 'kst-v4';
 /* 子路径兼容：GitHub Pages 会在 /仓库名/ 下提供服务，所有地址以 scope 为基准 */
 const SCOPE = self.registration.scope;
 const U = p => new URL(p, SCOPE).href;
