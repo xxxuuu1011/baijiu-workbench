@@ -26,3 +26,7 @@
 
 改动 `index.html` / `data.js` 后提交推送，GitHub Pages 会自动重新构建（约 1 分钟）。
 `sw.js` 对 `index.html`、`data.js` 采用**网络优先**策略，因此刷新即可拿到最新内容。
+
+## 维护记录
+
+- 2026-11-25：接入 GitHub 连接器，可由 AI 直接提交文件到 main 分支，推送后 Pages 自动重新发布。
